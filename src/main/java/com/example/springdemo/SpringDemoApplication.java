@@ -22,7 +22,7 @@ public class SpringDemoApplication {
 
 	@GetMapping("/new")
 	public String newHello(@RequestParam(value = "myName", defaultValue = "World") String name) {
-		return String.format("See on uus lehekülg");
+		return String.format("See on uus lehekülg  ");
 
 	}
 }
