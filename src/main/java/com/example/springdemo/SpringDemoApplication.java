@@ -25,4 +25,6 @@ public class SpringDemoApplication {
 		return String.format("See on uus lehekülg");
 
 	}
+
+
 }
